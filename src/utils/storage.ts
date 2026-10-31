@@ -33,7 +33,7 @@ const SAMPLE_RECEIPT_PHOTO = `data:image/svg+xml;utf8,${encodeURIComponent(`
 `)}`;
 
 export const DEFAULT_BOT_CONFIG: BotConfig = {
-  botToken: '8200264736:AAFJ8tHwzNK5CJ0Xle55TmmJtRGoQEwt4I0',
+  botToken: '',
   chatId: '',
   autoSendIOU: false,
 };

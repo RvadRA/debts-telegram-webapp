@@ -121,9 +121,9 @@ export const GitHubUploadModal: React.FC<GitHubUploadModalProps> = ({ isOpen, on
 
               <div className="text-slate-400"># Связать с вашим GitHub репозиторием:</div>
               <div>git remote add origin https://github.com/ЛОГИН/РЕПОЗИТОРИЙ.git</div>
-              <div className="text-slate-400 mt-1"># Отправить проект на GitHub:</div>
+              <div className="text-slate-400 mt-1"># Отправить проект на GitHub (если репозиторий уже существовал, используйте --force):</div>
               <div>git branch -M main</div>
-              <div>git push -u origin main</div>
+              <div>git push -u origin main --force</div>
             </div>
           </div>
 

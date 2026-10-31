@@ -11,7 +11,7 @@ const __dirname = path.dirname(__filename);
 
 const app = express();
 const PORT = parseInt(process.env.PORT || '3000', 10);
-const DEFAULT_BOT_TOKEN = '8200264736:AAFJ8tHwzNK5CJ0Xle55TmmJtRGoQEwt4I0';
+const DEFAULT_BOT_TOKEN = '';
 const BOT_TOKEN = process.env.TELEGRAM_BOT_TOKEN || DEFAULT_BOT_TOKEN;
 const APP_URL = process.env.APP_URL || 'https://ais-pre-snbpnn2vhr365b2p56xjuv-350086348561.us-east1.run.app';
 

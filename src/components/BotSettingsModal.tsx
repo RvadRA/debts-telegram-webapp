@@ -165,7 +165,7 @@ export const BotSettingsModal: React.FC<BotSettingsModalProps> = ({
               type="text"
               value={token}
               onChange={(e) => setToken(e.target.value)}
-              placeholder="8200264736:AAFJ8tHwzNK5CJ0Xle55TmmJtRGoQEwt4I0"
+              placeholder="123456789:ABCdefGHIjklMNOpqrSTUvwxYZ"
               className="w-full h-10 px-3 bg-slate-50 dark:bg-slate-800/80 border border-slate-200 dark:border-slate-700 rounded-xl text-xs font-mono text-slate-900 dark:text-slate-100 focus:outline-none focus:ring-2 focus:ring-sky-500/30"
             />
           </div>
