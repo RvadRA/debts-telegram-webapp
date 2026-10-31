@@ -1,0 +1,6 @@
+{
+  "name": "Долги и Чеки — Telegram WebApp",
+  "description": "Мобильное приложение Telegram WebApp для учета выданных и взятых долгов с прикреплением фото чеков, расчетов и дат возврата.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
